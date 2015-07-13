@@ -13,6 +13,11 @@
 		321F4E031B52CD7B002590DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 321F4E021B52CD7B002590DA /* Images.xcassets */; };
 		321F4E061B52CD7B002590DA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 321F4E041B52CD7B002590DA /* LaunchScreen.xib */; };
 		321F4E121B52CD7B002590DA /* PuzzleGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321F4E111B52CD7B002590DA /* PuzzleGameTests.swift */; };
+		321F4E1C1B52D524002590DA /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 321F4E1B1B52D524002590DA /* bg.png */; };
+		321F4E1E1B52D587002590DA /* picturebg.png in Resources */ = {isa = PBXBuildFile; fileRef = 321F4E1D1B52D587002590DA /* picturebg.png */; };
+		321F4E201B52E0E9002590DA /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = 321F4E1F1B52E0E9002590DA /* start.png */; };
+		321F4E221B52E30D002590DA /* piece.png in Resources */ = {isa = PBXBuildFile; fileRef = 321F4E211B52E30D002590DA /* piece.png */; };
+		321F4E281B543CCD002590DA /* picture.png in Resources */ = {isa = PBXBuildFile; fileRef = 321F4E271B543CCD002590DA /* picture.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		321F4E0B1B52CD7B002590DA /* PuzzleGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PuzzleGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		321F4E101B52CD7B002590DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		321F4E111B52CD7B002590DA /* PuzzleGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleGameTests.swift; sourceTree = "<group>"; };
+		321F4E1B1B52D524002590DA /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		321F4E1D1B52D587002590DA /* picturebg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picturebg.png; sourceTree = "<group>"; };
+		321F4E1F1B52E0E9002590DA /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		321F4E211B52E30D002590DA /* piece.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = piece.png; sourceTree = "<group>"; };
+		321F4E271B543CCD002590DA /* picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picture.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +100,11 @@
 		321F4DF91B52CD7B002590DA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				321F4E1F1B52E0E9002590DA /* start.png */,
+				321F4E1D1B52D587002590DA /* picturebg.png */,
+				321F4E271B543CCD002590DA /* picture.png */,
+				321F4E211B52E30D002590DA /* piece.png */,
+				321F4E1B1B52D524002590DA /* bg.png */,
 				321F4DFA1B52CD7B002590DA /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,6 +209,11 @@
 			files = (
 				321F4E011B52CD7B002590DA /* Main.storyboard in Resources */,
 				321F4E061B52CD7B002590DA /* LaunchScreen.xib in Resources */,
+				321F4E281B543CCD002590DA /* picture.png in Resources */,
+				321F4E221B52E30D002590DA /* piece.png in Resources */,
+				321F4E1E1B52D587002590DA /* picturebg.png in Resources */,
+				321F4E1C1B52D524002590DA /* bg.png in Resources */,
+				321F4E201B52E0E9002590DA /* start.png in Resources */,
 				321F4E031B52CD7B002590DA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
